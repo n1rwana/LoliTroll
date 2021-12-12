@@ -1,3 +1,5 @@
+# <img align="right" src="https://sun9-87.userapi.com/impg/IyBxd-cBUxfrcpcUQfkyY4Uzhc5YIsjEF4BPfg/zMsPVB0ycVk.jpg?size=512x512&quality=95&sign=7a72ae6742cf8194deabe6eeb412c6ad&type=album" alt="LoliCraft" title="LoliCraft" width="15%">
+
 # LoliTroll
  This is a plugin for Minecraft servers on the Spigot core. Adds commands for trolling players.
 
