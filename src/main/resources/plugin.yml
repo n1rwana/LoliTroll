@@ -1,0 +1,97 @@
+# Copyright (c) 2021 LoliCraft
+# Unauthorized copying, decompilation, engineering analysis, public display, renting are strictly prohibited.
+
+name: Main
+version: '1.0'
+main: lolitroll.main.Main
+prefix: LoliTroll
+authors: [ n1rwana ]
+description: A plugin which adds a troll commands.
+website: www.lolidon.ymer.site
+commands:
+  troll:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-[\u0442\u0438\u043F] [\u0438\u0433\u0440\u043E\u043A]"
+  troll-help:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-help"
+    aliases:
+      - trollhelp
+      - trollh
+      - troll-help
+      - helptroll
+  troll-dirt:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-dirt [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-dirt
+      - trolldirt
+      - dirttroll
+  troll-freeze:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-freeze [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-freeze
+      - trollfreeze
+      - freezetroll
+  troll-ban:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-ban [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-ban
+      - trollban
+      - bantroll
+  troll-op:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-op [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-op
+      - trollop
+      - optroll
+  troll-deop:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-deop [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-deop
+      - trolldeop
+      - deoptroll
+  troll-hack:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-hack [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-hack
+      - trollhack
+      - hacktroll
+  troll-burn:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-burn [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-burn
+      - trollburn
+      - burntroll
+  troll-pumpkin:
+    usage: "\u00A73\u00A7l\u00BB \u00A77\u00A7l\u0418\u0441\u043F\u043E\u043B\u044C\u0437\u043E\u0432\u0430\u043D\u0438\u0435:\u00A7d /troll-pumpkin [\u0438\u0433\u0440\u043E\u043A]"
+    aliases:
+      - troll-pumpkin
+      - trollpumpkin
+      - pumpkintroll
+
+permissions:
+  lolitroll.ban:
+    description: Allows troll-ban command
+    default: op
+  lolitroll.burn:
+    description: Allows troll-burn command
+    default: op
+  lolitroll.deop:
+    description: Allows troll-deop command
+    default: op
+  lolitroll.dirt:
+    description: Allows troll-dirt command
+    default: op
+  lolitroll.freeze:
+    description: Allows troll-freeze command
+    default: op
+  lolitroll.hacks:
+    description: Allows troll-hacks command
+    default: op
+  lolitroll.op:
+    description: Allows troll-op command
+    default: op
+  lolitroll.pumpkin:
+    description: Allows troll-pumpkin command
+    default: op
+  lolitroll.inviolability:
+    description: Gives immunity from all troll-commands
+    default: op
