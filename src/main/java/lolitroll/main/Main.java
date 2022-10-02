@@ -3,7 +3,7 @@
  *  Unauthorized copying, decompilation, engineering analysis, public display, renting are strictly prohibited.
  */
 
-// This is the Main class. Here we include the commands and listeners (idk for what XD) and turn the plugin on.
+// This is the Main class. Here we include the commands and listeners and turn the plugin on.
 
 package lolitroll.main;
 
